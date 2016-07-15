@@ -45,5 +45,5 @@ Due to a Stardog bug, it is necessary to remove the system folder if you have a 
 
 ## License
 
-This project is licensed under the MIT License.
+GNU GENERAL PUBLIC LICENSE
 
