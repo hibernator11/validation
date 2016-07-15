@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:sesame="http://www.openrdf.org/schema/sesame#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:fn="http://www.w3.org/2005/xpath-functions#">
+
+<rdf:Description rdf:about="http://data.cervantesvirtual.com/manifestation/722875">
+	<rdf:type rdf:resource="http://rdaregistry.info/Elements/c/Manifestation"/>
+	<identifier xmlns="http://purl.org/dc/elements/1.1/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">722875</identifier>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">El ingenioso hidalgo Don Quijote de la Mancha</rdfs:label>
+	<inLanguage xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">es</inLanguage>
+	<noteOnManifestation xmlns="http://rdaregistry.info/Elements/m/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miguel de Cervantes Saavedra (Alcalá de Henares, 1547-Madrid, 1616). Autor clásico y universal. Su figura y su obra literaria desbordaron, desde muy temprano, su origen hispano y su castellano natural para traspasar fronteras geográficas, culturales y lingüísticas, convirtiéndose en patrimonio de la humanidad. Escribió poesía, teatro y narrativa, género en el que destacón con 'El Quijote', tenida como la mejor novela mundial de todos los tiempos por muchos escritores internacionales. Más información en: http://bib.cervantesvirtual.com/bib_autor/Cervantes/index.shtml.</noteOnManifestation>
+	<mediaType xmlns="http://rdaregistry.info/Elements/m/" rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1003"/>
+	<expressionManifested xmlns="http://rdaregistry.info/Elements/m/" rdf:resource="http://data.cervantesvirtual.com/expression/150393"/>
+	<uniformResourceLocator xmlns="http://rdaregistry.info/Elements/m/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.cervantesvirtual.com/obra/el-ingenioso-hidalgo-don-quijote-de-la-mancha-2012</uniformResourceLocator>
+	<title xmlns="http://rdaregistry.info/Elements/m/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">El ingenioso hidalgo Don Quijote de la Mancha</title>
+	<publisher xmlns="http://rdaregistry.info/Elements/u/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fundación Biblioteca Virtual Miguel de Cervantes. Catálogo Editorial</publisher>
+	<carrierType xmlns="http://rdaregistry.info/Elements/m/" rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1010"/>
+	<language xmlns="http://purl.org/dc/elements/1.1/" rdf:resource="http://data.cervantesvirtual.com/language/es"/>
+	<placeOfPublication xmlns="http://rdaregistry.info/Elements/m/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fundación Biblioteca Virtual Miguel de Cervantes, 2012</placeOfPublication>
+	<workManifested xmlns="http://rdaregistry.info/Elements/m/" rdf:resource="http://data.cervantesvirtual.com/work/2904"/>
+	<owl:sameAs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.europeana.eu/portal/record/90901/nd_ark__59851_bmc7m055.html</owl:sameAs>
+	<created xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">07/05/2016</created>
+	<creator xmlns="http://purl.org/dc/terms/" rdf:resource="http://fundacion.cervantesvirtual.com"/>
+	<contentType xmlns="http://rdaregistry.info/Elements/u/" rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020&#xD;&#xA;"/>
+	<bibliographicCitation xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">@Misc{BVMC:722875,
+author = {Cervantes Saavedra, Miguel de},
+title = {El ingenioso hidalgo Don Quijote de la Mancha},
+publisher = {Fundación Biblioteca Virtual Miguel de Cervantes, 2012},
+url = {http://www.cervantesvirtual.com/obra/el-ingenioso-hidalgo-don-quijote-de-la-mancha-2012}
+}</bibliographicCitation>
+	<P1154 xmlns="http://iflastandards.info/ns/isbd/elements/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">978-84-15548-04-1</P1154>
+	<identifierForTheManifestation xmlns="http://rdaregistry.info/Elements/m/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">978-84-15548-04-1</identifierForTheManifestation>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.cervantesvirtual.com/work/2904">
+	<manifestationOfWork xmlns="http://rdaregistry.info/Elements/w/" rdf:resource="http://data.cervantesvirtual.com/manifestation/722875"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.cervantesvirtual.com/expression/150393">
+	<manifestationOfExpression xmlns="http://rdaregistry.info/Elements/e/" rdf:resource="http://data.cervantesvirtual.com/manifestation/722875"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.cervantesvirtual.com/item/420757">
+	<manifestationExemplified xmlns="http://rdaregistry.info/Elements/i/" rdf:resource="http://data.cervantesvirtual.com/manifestation/722875"/>
+</rdf:Description>
+
+</rdf:RDF>

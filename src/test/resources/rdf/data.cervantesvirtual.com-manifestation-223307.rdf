@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:sesame="http://www.openrdf.org/schema/sesame#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:fn="http://www.w3.org/2005/xpath-functions#">
+
+<rdf:Description rdf:about="http://data.cervantesvirtual.com/manifestation/223307">
+	<rdf:type rdf:resource="http://rdaregistry.info/Elements/c/Manifestation"/>
+	<identifier xmlns="http://purl.org/dc/elements/1.1/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">223307</identifier>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">El ingenioso hidalgo Don Quijote de la Mancha / Miguel de Cervantes Saavedra</rdfs:label>
+	<inLanguage xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">es</inLanguage>
+	<noteOnManifestation xmlns="http://rdaregistry.info/Elements/m/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Voz de Camilo García Casar</noteOnManifestation>
+	<mediaType xmlns="http://rdaregistry.info/Elements/m/" rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1001"/>
+	<dateOfPublication xmlns="http://rdaregistry.info/Elements/m/" rdf:resource="http://data.cervantesvirtual.com/date/1913"/>
+	<expressionManifested xmlns="http://rdaregistry.info/Elements/m/" rdf:resource="http://data.cervantesvirtual.com/expression/150393"/>
+	<uniformResourceLocator xmlns="http://rdaregistry.info/Elements/m/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.cervantesvirtual.com/nd/ark:/59851/bmc7m055</uniformResourceLocator>
+	<title xmlns="http://rdaregistry.info/Elements/m/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">El ingenioso hidalgo Don Quijote de la Mancha</title>
+	<title xmlns="http://rdaregistry.info/Elements/m/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">El ingenioso hidalgo Don Quijote de la Mancha / Miguel de Cervantes Saavedra</title>
+	<noteOnEditionStatement xmlns="http://rdaregistry.info/Elements/m/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Edición digital basada en la edición de Madrid, Ediciones de La Lectura, 1911-1913.</noteOnEditionStatement>
+	<publisher xmlns="http://rdaregistry.info/Elements/u/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desconocido</publisher>
+	<carrierType xmlns="http://rdaregistry.info/Elements/m/" rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1001"/>
+	<language xmlns="http://purl.org/dc/elements/1.1/" rdf:resource="http://data.cervantesvirtual.com/language/es"/>
+	<placeOfPublication xmlns="http://rdaregistry.info/Elements/m/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alicante : Biblioteca Virtual Miguel de Cervantes, 1999</placeOfPublication>
+	<workManifested xmlns="http://rdaregistry.info/Elements/m/" rdf:resource="http://data.cervantesvirtual.com/work/2904"/>
+	<dateOfDistribution xmlns="http://rdaregistry.info/Elements/m/" rdf:resource="http://data.cervantesvirtual.com/date/1999"/>
+	<exemplarOfManifestation xmlns="http://rdaregistry.info/Elements/m/" rdf:resource="http://data.cervantesvirtual.com/item/45851"/>
+	<insertedIn xmlns="http://rdaregistry.info/Elements/m/" rdf:resource="http://data.cervantesvirtual.com/manifestation/242546"/>
+	<supplementTo xmlns="http://rdaregistry.info/Elements/u/" rdf:resource="http://data.cervantesvirtual.com/manifestation/238441"/>
+	<revisionOf xmlns="http://rdaregistry.info/Elements/u/" rdf:resource="http://data.cervantesvirtual.com/manifestation/238441"/>
+	<created xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">07/05/2016</created>
+	<creator xmlns="http://purl.org/dc/terms/" rdf:resource="http://fundacion.cervantesvirtual.com"/>
+	<placeOfProduction xmlns="http://rdaregistry.info/Elements/m/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Madrid, Ediciones de La Lectura, 1911-1913</placeOfProduction>
+	<contentType xmlns="http://rdaregistry.info/Elements/u/" rdf:resource="http://rdaregistry.info/termList/RDAContentType/1011"/>
+	<bibliographicCitation xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">@Misc{BVMC:223307,
+author = {Cervantes Saavedra, Miguel de},
+title = {El ingenioso hidalgo Don Quijote de la Mancha},
+publisher = {Alicante : Biblioteca Virtual Miguel de Cervantes, 1999},
+year = {1999},
+url = {http://www.cervantesvirtual.com/nd/ark:/59851/bmc7m055}./s
+}</bibliographicCitation>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.cervantesvirtual.com/work/2904">
+	<manifestationOfWork xmlns="http://rdaregistry.info/Elements/w/" rdf:resource="http://data.cervantesvirtual.com/manifestation/223307"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.cervantesvirtual.com/expression/150393">
+	<manifestationOfExpression xmlns="http://rdaregistry.info/Elements/e/" rdf:resource="http://data.cervantesvirtual.com/manifestation/223307"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.cervantesvirtual.com/item/45851">
+	<manifestationExemplified xmlns="http://rdaregistry.info/Elements/i/" rdf:resource="http://data.cervantesvirtual.com/manifestation/223307"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.cervantesvirtual.com/item/44600">
+	<manifestationExemplified xmlns="http://rdaregistry.info/Elements/i/" rdf:resource="http://data.cervantesvirtual.com/manifestation/223307"/>
+</rdf:Description>
+
+</rdf:RDF>

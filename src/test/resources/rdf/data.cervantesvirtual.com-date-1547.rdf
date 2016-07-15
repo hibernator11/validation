@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:sesame="http://www.openrdf.org/schema/sesame#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:fn="http://www.w3.org/2005/xpath-functions#">
+
+<rdf:Description rdf:about="http://data.cervantesvirtual.com/date/1547">
+	<rdf:type rdf:resource="http://www.w3.org/2006/time#DateTimeDescription"/>
+	<rdf:type rdf:resource="http://www.w3.org/2006/time#Instant"/>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The year 1547</rdfs:label>
+	<inDateTime xmlns="http://www.w3.org/2006/time#" rdf:resource="http://data.cervantesvirtual.com/datedescription/1547"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.cervantesvirtual.com/person/40">
+	<dateOfBirth xmlns="http://rdaregistry.info/Elements/a/" rdf:resource="http://data.cervantesvirtual.com/date/1547"/>
+</rdf:Description>
+
+</rdf:RDF>

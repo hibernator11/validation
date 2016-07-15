@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:sesame="http://www.openrdf.org/schema/sesame#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:fn="http://www.w3.org/2005/xpath-functions#">
+
+<rdf:Description rdf:about="http://data.cervantesvirtual.com/manifestation/238441">
+	<rdf:type rdf:resource="http://rdaregistry.info/Elements/c/Manifestation"/>
+	<identifier xmlns="http://purl.org/dc/elements/1.1/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">238441</identifier>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">La Galatea / Miguel de Cervantes Saavedra; edición de Florencio Sevilla Arroyo</rdfs:label>
+	<inLanguage xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">es</inLanguage>
+	<expressionManifested xmlns="http://rdaregistry.info/Elements/m/" rdf:resource="http://data.cervantesvirtual.com/expression/165527"/>
+	<uniformResourceLocator xmlns="http://rdaregistry.info/Elements/m/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.cervantesvirtual.com/nd/ark:/59851/bmcj9638</uniformResourceLocator>
+	<title xmlns="http://rdaregistry.info/Elements/m/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">La Galatea / Miguel de Cervantes Saavedra; edición de Florencio Sevilla Arroyo</title>
+	<publisher xmlns="http://rdaregistry.info/Elements/u/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desconocido</publisher>
+	<language xmlns="http://purl.org/dc/elements/1.1/" rdf:resource="http://data.cervantesvirtual.com/language/es"/>
+	<placeOfPublication xmlns="http://rdaregistry.info/Elements/m/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alicante : Biblioteca Virtual Miguel de Cervantes, 2001</placeOfPublication>
+	<workManifested xmlns="http://rdaregistry.info/Elements/m/" rdf:resource="http://data.cervantesvirtual.com/work/18055"/>
+	<dateOfDistribution xmlns="http://rdaregistry.info/Elements/m/" rdf:resource="http://data.cervantesvirtual.com/date/2001"/>
+	<exemplarOfManifestation xmlns="http://rdaregistry.info/Elements/m/" rdf:resource="http://data.cervantesvirtual.com/item/239172"/>
+	<exemplarOfManifestation xmlns="http://rdaregistry.info/Elements/m/" rdf:resource="http://data.cervantesvirtual.com/item/45989"/>
+	<insertedIn xmlns="http://rdaregistry.info/Elements/m/" rdf:resource="http://data.cervantesvirtual.com/manifestation/242546"/>
+	<insertedIn xmlns="http://rdaregistry.info/Elements/m/" rdf:resource="http://data.cervantesvirtual.com/manifestation/278702"/>
+	<owl:sameAs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.europeana.eu/portal/record/90901/nd_ark__59851_bmcj9638.html</owl:sameAs>
+	<created xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11/05/2016</created>
+	<creator xmlns="http://purl.org/dc/terms/" rdf:resource="http://fundacion.cervantesvirtual.com"/>
+	<bibliographicCitation xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">@Misc{BVMC:238441,
+author = {Cervantes Saavedra, Miguel de},
+title = {La Galatea},
+publisher = {Alicante : Biblioteca Virtual Miguel de Cervantes, 2001},
+year = {2001},
+url = {http://www.cervantesvirtual.com/nd/ark:/59851/bmcj9638}./s
+}</bibliographicCitation>
+	<concordance xmlns="http://rdaregistry.info/Elements/u/" rdf:resource="http://www.cervantesvirtual.com/concordancias/la-galatea--0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.cervantesvirtual.com/work/18055">
+	<manifestationOfWork xmlns="http://rdaregistry.info/Elements/w/" rdf:resource="http://data.cervantesvirtual.com/manifestation/238441"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.cervantesvirtual.com/expression/165527">
+	<manifestationOfExpression xmlns="http://rdaregistry.info/Elements/e/" rdf:resource="http://data.cervantesvirtual.com/manifestation/238441"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.cervantesvirtual.com/item/239172">
+	<manifestationExemplified xmlns="http://rdaregistry.info/Elements/i/" rdf:resource="http://data.cervantesvirtual.com/manifestation/238441"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.cervantesvirtual.com/item/45989">
+	<manifestationExemplified xmlns="http://rdaregistry.info/Elements/i/" rdf:resource="http://data.cervantesvirtual.com/manifestation/238441"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.cervantesvirtual.com/item/392730">
+	<manifestationExemplified xmlns="http://rdaregistry.info/Elements/i/" rdf:resource="http://data.cervantesvirtual.com/manifestation/238441"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.cervantesvirtual.com/item/44711">
+	<manifestationExemplified xmlns="http://rdaregistry.info/Elements/i/" rdf:resource="http://data.cervantesvirtual.com/manifestation/238441"/>
+</rdf:Description>
+
+</rdf:RDF>

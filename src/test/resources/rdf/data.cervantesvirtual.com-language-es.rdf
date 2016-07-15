@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:sesame="http://www.openrdf.org/schema/sesame#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:fn="http://www.w3.org/2005/xpath-functions#">
+
+<rdf:Description rdf:about="http://data.cervantesvirtual.com/language/es">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdf:type rdf:resource="http://dbpedia.org/ontology/Language"/>
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Language"/>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">español@es</rdfs:label>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">español</rdfs:label>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">castellà@ca</rdfs:label>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">castellà</rdfs:label>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">español@es</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">castellà@ca</prefLabel>
+	<code xmlns="http://www.loc.gov/mads/rdf/v1#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">es</code>
+	<owl:sameAs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://id.loc.gov/vocabulary/iso639-1/es</owl:sameAs>
+	<owl:sameAs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Spanish_language</owl:sameAs>
+	<isPrimaryTopicOf xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://en.wikipedia.org/wiki/Spanish_language"/>
+	<depiction xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Countries_with_Spanish_as_an_official_language.svg?width=300"/>
+	<abstract xmlns="http://dbpedia.org/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">El idioma español o castellano es una lengua romance procedente del latín vulgar. Pertenece al grupo ibérico, y es originaria de Castilla, una región histórica de la península ibérica, en la actual España. Se conoce también por el americanismo coloquial castilla (por ejemplo: «hablar castilla», «entender castilla»), común en áreas rurales e indígenas entre México y la Patagonia.Es la segunda lengua del mundo por el número de personas que la hablan como lengua materna, tras el chino mandarín, con 416 millones de hablantes nativos, y lo hablan como primera y segunda lengua con dominio nativo 470 millones, acercándose a los 560 millones de personas si contamos a hablantes con competencia limitada, de modo que puede ser considerada la tercera lengua del mundo por el total de hablantes tras el mandarín y el inglés, con más de 20 millones de estudiantes, y la segunda en comunicación internacional tras el inglés.El español posee la tercera mayor población alfabetizada del mundo (un 5,47 % del total), siendo la tercera lengua más utilizada para la producción de información en los medios de comunicación, y también la tercera lengua con más usuarios de Internet (182 millones, 8 % del total).Es hablada en España, Hispanoamérica, el Sáhara Occidental, Guinea Ecuatorial y en parte de Filipinas, siendo esta la oficial en gran parte de estos territorios. Es uno de los seis idiomas oficiales de la Organización de las Naciones Unidas. Es también idioma oficial en varias de las principales organizaciones político-económicas internacionales —la Unión Europea, la Unión Africana, la Organización de Estados Americanos, la Organización de Estados Iberoamericanos, el Tratado de Libre Comercio de América del Norte, la Unión de Naciones Suramericanas, la Comunidad del Caribe, los Estados de África, del Caribe y del Pacífico y el Tratado Antártico, entre otras— y del ámbito deportivo —el Comité Olímpico Internacional, la FIFA, la Asociación Internacional de Federaciones de Atletismo, etc.—.El español, como las otras lenguas romances, es una continuación moderna del latín hablado (denominado latín vulgar), desde el siglo III, que tras el desmembramiento del Imperio romano fue divergiendo de las otras variantes del latín que se hablaban en las distintas provincias del antiguo Imperio, dando lugar mediante una lenta evolución a las distintas lenguas romances. Debido a su propagación por América, el español es, con diferencia, la lengua romance que ha logrado mayor difusión.@es</abstract>
+	<created xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">07/05/2016</created>
+	<creator xmlns="http://purl.org/dc/terms/" rdf:resource="http://fundacion.cervantesvirtual.com"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.cervantesvirtual.com/manifestation/238593">
+	<language xmlns="http://purl.org/dc/elements/1.1/" rdf:resource="http://data.cervantesvirtual.com/language/es"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.cervantesvirtual.com/manifestation/722875">
+	<language xmlns="http://purl.org/dc/elements/1.1/" rdf:resource="http://data.cervantesvirtual.com/language/es"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.cervantesvirtual.com/manifestation/223307">
+	<language xmlns="http://purl.org/dc/elements/1.1/" rdf:resource="http://data.cervantesvirtual.com/language/es"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.cervantesvirtual.com/manifestation/716656">
+	<language xmlns="http://purl.org/dc/elements/1.1/" rdf:resource="http://data.cervantesvirtual.com/language/es"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.cervantesvirtual.com/expression/150393">
+	<languageOfExpression xmlns="http://rdaregistry.info/Elements/e/" rdf:resource="http://data.cervantesvirtual.com/language/es"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.cervantesvirtual.com/manifestation/224029">
+	<language xmlns="http://purl.org/dc/elements/1.1/" rdf:resource="http://data.cervantesvirtual.com/language/es"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.cervantesvirtual.com/manifestation/703260">
+	<language xmlns="http://purl.org/dc/elements/1.1/" rdf:resource="http://data.cervantesvirtual.com/language/es"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.cervantesvirtual.com/manifestation/284841">
+	<language xmlns="http://purl.org/dc/elements/1.1/" rdf:resource="http://data.cervantesvirtual.com/language/es"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.cervantesvirtual.com/manifestation/739062">
+	<language xmlns="http://purl.org/dc/elements/1.1/" rdf:resource="http://data.cervantesvirtual.com/language/es"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.cervantesvirtual.com/manifestation/251636">
+	<language xmlns="http://purl.org/dc/elements/1.1/" rdf:resource="http://data.cervantesvirtual.com/language/es"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.cervantesvirtual.com/manifestation/251645">
+	<language xmlns="http://purl.org/dc/elements/1.1/" rdf:resource="http://data.cervantesvirtual.com/language/es"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.cervantesvirtual.com/manifestation/238441">
+	<language xmlns="http://purl.org/dc/elements/1.1/" rdf:resource="http://data.cervantesvirtual.com/language/es"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.cervantesvirtual.com/expression/165527">
+	<languageOfExpression xmlns="http://rdaregistry.info/Elements/e/" rdf:resource="http://data.cervantesvirtual.com/language/es"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.cervantesvirtual.com/manifestation/284846">
+	<language xmlns="http://purl.org/dc/elements/1.1/" rdf:resource="http://data.cervantesvirtual.com/language/es"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.cervantesvirtual.com/manifestation/266099">
+	<language xmlns="http://purl.org/dc/elements/1.1/" rdf:resource="http://data.cervantesvirtual.com/language/es"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.cervantesvirtual.com/manifestation/709233">
+	<language xmlns="http://purl.org/dc/elements/1.1/" rdf:resource="http://data.cervantesvirtual.com/language/es"/>
+</rdf:Description>
+
+</rdf:RDF>

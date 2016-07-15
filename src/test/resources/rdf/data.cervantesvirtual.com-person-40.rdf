@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:sesame="http://www.openrdf.org/schema/sesame#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:fn="http://www.w3.org/2005/xpath-functions#">
+
+<rdf:Description rdf:about="http://data.cervantesvirtual.com/person/40">
+	<rdf:type rdf:resource="http://schema.org/Person"/>
+	<rdf:type rdf:resource="http://rdaregistry.info/Elements/c/Person"/>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cervantes Saavedra, Miguel de, 1547-1616</rdfs:label>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Don_Miguel_de_Cervantes_y_Saavedra"/>
+	<owl:sameAs rdf:resource="http://isni-url.oclc.nl/isni/0000000121221919"/>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Saavedra_Cervantes"/>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/The_proof_of_the_pudding"/>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Miguel_De_Cervantes"/>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Cervantes_Saavedra"/>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Miguel_de_Cervantes"/>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Miguel_de_Cervantes_Saavedra"/>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Miguel_de_cervantes_saavedra"/>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Cervant%25C3%25A8s"/>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Miguel_de_Servantes"/>
+	<owl:sameAs rdf:resource="http://data.bnf.fr/11895774#foaf:Person"/>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/De_Cervantes"/>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Cervantes_Saavedra,_Miguel_de--Writer"/>
+	<owl:sameAs rdf:resource="http://data.bnf.fr/11895774#skos:Concept"/>
+	<owl:sameAs rdf:resource="http://datos.bne.es/resource/XX1718747"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/17220427"/>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Cervantes"/>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Cervant%C3%A8s"/>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Don_miguel_cervantes_y_saavedra"/>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Lorna_Dee_Cervantes"/>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Miguel_de_Cervantes-Saavedra"/>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Miguel_de_Cervantes_y_Saavedra"/>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Don_Miguel_Cervantes_y_Saavedra"/>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Miguel_saavedra_de_cervantes"/>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Miguel_Cervantes"/>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Cervantes_Saavedra%252C_Miguel_de--Writer"/>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Cervantes_Saavedra,_Miguel_de"/>
+	<owl:sameAs rdf:resource="http://data.bnf.fr/11895774"/>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Michael_de_Cervantes_Saavedra"/>
+	<owl:sameAs rdf:resource="http://bnb.data.bl.uk/id/person/CervantesSaavedraMiguelde1547-1616"/>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Miguel_de_servantes"/>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Miguel_Saavedra_de_Cervantes"/>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Miguel_Cervantez"/>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Miguel_de_cervantes"/>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Cervantes_Saavedra%252C_Miguel_de"/>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Servantes"/>
+	<created xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11/19/2016</created>
+	<creator xmlns="http://purl.org/dc/terms/" rdf:resource="http://fundacion.cervantesvirtual.com"/>
+	<authorOf xmlns="http://rdaregistry.info/Elements/a/" rdf:resource="http://data.cervantesvirtual.com/work/2904"/>
+	<nameOfThePerson xmlns="http://rdaregistry.info/Elements/a/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cervantes Saavedra, Miguel de</nameOfThePerson>
+	<identifierForThePerson xmlns="http://rdaregistry.info/Elements/a/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40</identifierForThePerson>
+	<otherPFCManifestationOf xmlns="http://rdaregistry.info/Elements/a/" rdf:resource="http://data.cervantesvirtual.com/manifestation/223307"/>
+	<otherPFCManifestationOf xmlns="http://rdaregistry.info/Elements/a/" rdf:resource="http://data.cervantesvirtual.com/manifestation/238441"/>
+	<otherPFCManifestationOf xmlns="http://rdaregistry.info/Elements/a/" rdf:resource="http://data.cervantesvirtual.com/manifestation/716656"/>
+	<dateOfDeath xmlns="http://rdaregistry.info/Elements/a/" rdf:resource="http://data.cervantesvirtual.com/date/1616"/>
+	<dateOfBirth xmlns="http://rdaregistry.info/Elements/a/" rdf:resource="http://data.cervantesvirtual.com/date/1547"/>
+	<variantNameForThePerson xmlns="http://rdaregistry.info/Elements/a/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cervantes, Miguel de</variantNameForThePerson>
+	<identifierValid xmlns="http://isni.org/ontology#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0000000121221919</identifierValid>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.cervantesvirtual.com/work/2904">
+	<author xmlns="http://rdaregistry.info/Elements/w/" rdf:resource="http://data.cervantesvirtual.com/person/40"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.cervantesvirtual.com/work/18055">
+	<author xmlns="http://rdaregistry.info/Elements/w/" rdf:resource="http://data.cervantesvirtual.com/person/40"/>
+</rdf:Description>
+
+</rdf:RDF>

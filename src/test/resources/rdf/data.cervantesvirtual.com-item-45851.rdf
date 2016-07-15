@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:sesame="http://www.openrdf.org/schema/sesame#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:fn="http://www.w3.org/2005/xpath-functions#">
+	
+<rdf:Description rdf:about="http://data.cervantesvirtual.com/item/45851">
+	<rdf:type rdf:resource="http://rdaregistry.info/Elements/c/Item"/>
+	<identifierForTheItem xmlns="http://rdaregistry.info/Elements/i/" rdf:resource="http://media.cervantesvirtual.com/s3/BVMC_OBRAS/fef/04e/528/2b1/11d/fac/c70/021/85c/e60/64/portada/Cover.jpg"/>
+	<manifestationExemplified xmlns="http://rdaregistry.info/Elements/i/" rdf:resource="http://data.cervantesvirtual.com/manifestation/223307"/>
+	<created xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11/05/2016</created>
+	<creator xmlns="http://purl.org/dc/terms/" rdf:resource="http://fundacion.cervantesvirtual.com"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.cervantesvirtual.com/manifestation/223307">
+	<exemplarOfManifestation xmlns="http://rdaregistry.info/Elements/m/" rdf:resource="http://data.cervantesvirtual.com/item/45851"/>
+</rdf:Description>
+
+</rdf:RDF>
