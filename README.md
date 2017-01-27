@@ -6,7 +6,7 @@ This project is an example of how to validate RDF files based on the <a href="ht
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-### Prerequisities
+## Prerequisities
 
 It is necessary to add the license stardog-license-key.bin file at the root folder of the project. The stardog community version has been used in order to perform the validation of the RDF files. The community version only allows for the definition of 20 constraints. This is the reason why the constraints are defined and launched by classes. 
 
@@ -20,7 +20,7 @@ stardog-license-key.bin
 mvn test
 ```
 
-## And coding style tests
+## Code explanation
 
 First the type of entities are defined such as Work, Expression, Manifestatation and Agent:
 
@@ -63,7 +63,23 @@ Constraint aRangeConstraint = ConstraintFactory.constraint(range(carrierType, Co
 addConstraint(aValidator, aDomainConstraint, aRangeConstraint);
 ```
 
-## running issues
+
+## List of constraints
+* Domain-Range author of constraint: an Agent is the author of a Work 
+* Cardinality constraints: exactly one identifierForThePerson property per Person 
+* Domain-Range author of constraint: an Agent is the director of a Work
+* Domain-Range publisher of constraint: an Agent is the publisher of an Expression
+* Domain-Range constraint: only works can be manifested by manifestations
+* Domain-Range name of the person constraint: name of the person are defined only for person entities
+* Domain-Range date of birth constraint: date of birth are defined only for person entities
+* Domain-Range date of death constraint: date of death are defined only for person entities
+* Domain-Range variant name of the person constraint: variant name of the person are defined only for person entities
+
+
+
+
+
+## Running issues
 
 Due to a Stardog bug, it is necessary to remove the system folder if you have a problem with the admin user. 
 
