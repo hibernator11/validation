@@ -20,10 +20,40 @@ stardog-license-key.bin
 mvn test
 ```
 
-### And coding style tests
+## And coding style tests
 
-Explain what these tests test and why
+First the type of entities are defined such as Work, Expression, Manifestatation and Agent:
 
+```
+private static final IRI Work = rdacVocab.term("Work");
+private static final IRI Expression = rdacVocab.term("Expression");
+private static final IRI Manifestation = rdacVocab.term("Manifestation");
+private static final IRI Item = rdacVocab.term("Item");
+private static final IRI Agent = rdacVocab.term("Agent");
+private static final IRI Person = rdacVocab.term("Person");
+private static final IRI CorporateBody = rdacVocab.term("CorporateBody");
+private static final IRI Family = rdacVocab.term("Family");
+private static final IRI Concept = skosVocab.term("Concept");
+private static final IRI Instant = timeVocab.term("Instant");
+```
+
+Then, all the relationships that want to be testes must be defined:
+```
+// DC models
+private static final IRI identifier = dcVocab.term("identifier");
+
+// Expression model
+private static final IRI languageOfExpression = rdaeVocab.term("languageOfExpression");
+private static final IRI workExpressed = rdaeVocab.term("workExpressed");
+private static final IRI manifestationOfExpression = rdaeVocab.term("manifestationOfExpression");
+private static final IRI contributor = rdaeVocab.term("contributor");
+private static final IRI translator = rdaeVocab.term("translator");
+private static final IRI illustrator = rdaeVocab.term("illustrator");
+private static final IRI imitationOfExpression = rdaeVocab.term("imitationOfExpression");
+private static final IRI abridgementOfExpression = rdaeVocab.term("abridgementOfExpression");
+```
+
+Finally, the domain-range and cardinality constraints are defined: 
 ```
 System.out.println("(1) Domain-Range constraints: Carrier type ");
 
