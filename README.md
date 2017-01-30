@@ -65,18 +65,41 @@ addConstraint(aValidator, aDomainConstraint, aRangeConstraint);
 
 
 ## List of constraints
-* Domain-Range author of constraint: an Agent is the author of a Work 
-* Cardinality constraints: exactly one identifierForThePerson property per Person 
-* Domain-Range author of constraint: an Agent is the director of a Work
-* Domain-Range publisher of constraint: an Agent is the publisher of an Expression
+* Domain-Range constraint: an Agent is the author of a Work 
+* Cardinality  constraint: exactly one identifierForThePerson property per Person 
+* Domain-Range constraint: an Agent is the director of a Work
+* Domain-Range constraint: an Agent is the publisher of an Expression
 * Domain-Range constraint: only works can be manifested by manifestations
-* Domain-Range name of the person constraint: name of the person are defined only for person entities
-* Domain-Range date of birth constraint: date of birth are defined only for person entities
-* Domain-Range date of death constraint: date of death are defined only for person entities
-* Domain-Range variant name of the person constraint: variant name of the person are defined only for person entities
-
-
-
+* Domain-Range constraint: name of the person are defined only for person entities
+* Domain-Range constraint: date of birth are defined only for person entities
+* Domain-Range constraint: date of death are defined only for person entities
+* Domain-Range constraint: variant name of the person are defined only for person entities
+* Domain-Range constraint: Only works can be expressed by expressions 
+* Cardinality  constraint: Exactly one titleOfTheWork property per work
+* Cardinality  constraint: Exactly one identifier property per work
+* Cardinality  constraint: At least one manifestation per work
+* Domain-Range constraint: Only works can be manifested by manifestations
+* Domain-Range constraint: Only works can have the role author
+* Domain-Range constraint: Only works can have the role director
+* Domain-Range constraint: Form of Work must be a Resource from LOC genre forms
+* Domain-Range constraint: Language of Expression must be a Language
+* Domain-Range constraint: Work of Expression must be a Work entity
+* Domain-Range constraint: an Agent is the contributor of an Expression 
+* Domain-Range constraint: Manifestation of Expression
+* Cardinality  constraint: Exactly one identifier property per expression
+* Domain-Range constraint: an Agent is the illustrator of an Expression 
+* Domain-Range constraint: an Agent is the translator of an Expression 
+* Domain-Range constraint: an Expression can be imitationOfExpression of other Expression
+* Domain-Range constraint: an Expression can be abridgementOfExpression of other Expression
+* Domain-Range constraint: a Manifestation can be digitalTransferOfManifestation of other Manifestation
+* Domain-Range constraint: Only expressions can be manifested by manifestations
+* Domain-Range constraint: Manifestations have the relationship Media Type
+* Domain-Range constraint: Only items can be exemplar of Manifestations 
+* Cardinality  constraint: Exactly one identifier property per manifestation
+* Domain-Range constraint: Manifestations have the relationship Carrier Type
+* Domain-Range constraint: Manifestations have the relationship Content Type
+* Domain-Range constraint: A Manifestation can be a Revision from other Manifestation
+* Domain-Range constraint: A Manifestation can be a Supplement from other Manifestation
 
 
 ## Running issues
