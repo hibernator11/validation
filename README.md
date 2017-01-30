@@ -64,7 +64,7 @@ addConstraint(aValidator, aDomainConstraint, aRangeConstraint);
 ```
 
 
-## List of constraints
+## List of constraints (35)
 * Domain-Range constraint: an Agent is the author of a Work 
 * Cardinality  constraint: exactly one identifierForThePerson property per Person 
 * Domain-Range constraint: an Agent is the director of a Work
